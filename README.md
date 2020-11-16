@@ -52,7 +52,7 @@ files used by the samples can be found in the ```resources``` folder. When execu
 child folder under the project root directory to store their results.
 
 ### Extract Elements Information and Renditions from a PDF File
-These samples illustrate how to extract PDF elements from PDF. 
+These samples illustrate how to extract PDF elements from PDF. Refer to the documentation of [ExtractPDFOperation](https://opensource.adobe.com/pdftools-extract-node-sdk-samples/apidocs/ExtractPdfOperation.html) to see the list of inputs.
 
 #### Extract Text Elements
 
