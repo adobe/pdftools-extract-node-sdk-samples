@@ -9,7 +9,7 @@
  * written permission of Adobe.
  */
 
-const ExtractPdfSdk = require('@dcloud/pdftools-extract-node-sdk');
+const ExtractPdfSdk = require('@adobe/pdftools-extract-node-sdk');
 
 /**
  * This sample illustrates how to extract Text, Table Elements Information from PDF along with renditions of Table
