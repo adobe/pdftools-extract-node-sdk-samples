@@ -97,6 +97,23 @@ This enables the clients to fetch the credentials from a secret server during ru
 ```$xslt
 node src/extractpdf/extract-text-info-from-pdf-with-inmem-auth-cred.js
 ```
+#### Extract Text, Table Elements and bounding boxes for Characters present in text blocks with Renditions of Table Elements
+
+The sample script ```extract-text-table-info-with-char-bounds-from-pdf.js``` extracts text, table elements, bounding boxes for characters present in text blocks and table element's renditions from PDF Document. 
+Note that the output is a zip containing the structured information along with renditions as described in [section](#structured-information-output-format).
+
+```$xslt
+node src/extractpdf/extract-text-table-info-with-char-bounds-from-pdf.js
+```
+
+#### Extract Text, Table Elements with Renditions and CSV's of Table Elements
+
+The sample script ```extract-text-table-info-with-tables-structure-from-pdf.js``` extracts text, table elements, table structures as CSV and table element's renditions from PDF Document. Note that the output is a zip containing the structured information along with renditions as described in [section](#structured-information-output-format).
+
+```$xslt
+node src/extractpdf/extract-text-table-info-with-tables-structure-from-pdf.js
+```
+
 ### Contributing
 
 Contributions are welcome! Read the [Contributing Guide](.github/CONTRIBUTING.md) for more information.
